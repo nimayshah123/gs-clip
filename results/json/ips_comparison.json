@@ -1,0 +1,33 @@
+{
+  "CLIP ViT-B/32 (baseline)": {
+    "IPS": 0.7822,
+    "rand_pair": 0.6844
+  },
+  "NegCLIP": {
+    "IPS": 0.7829,
+    "rand_pair": 0.6988
+  },
+  "TripletCLIP (CC3M)": {
+    "IPS": null,
+    "rand_pair": null,
+    "error": "Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.\nSee the vulnerability report here https://nvd.nist.gov/vuln/detail/CVE-2025-32434"
+  },
+  "TripletCLIP (CC12M)": {
+    "IPS": null,
+    "rand_pair": null,
+    "error": "Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.\nSee the vulnerability report here https://nvd.nist.gov/vuln/detail/CVE-2025-32434"
+  },
+  "CLIP ViT-B/32 (LAION-2B)": {
+    "IPS": 0.6406,
+    "rand_pair": 0.4887
+  },
+  "BLIP v1 (COCO-ITM)": {
+    "IPS": 0.5961,
+    "rand_pair": 0.4571
+  },
+  "BLIP-2 Q-Former (OPT-2.7B)": {
+    "IPS": null,
+    "rand_pair": null,
+    "error": "Blip2QFormerModel.forward() missing 1 required positional argument: 'query_embeds'"
+  }
+}

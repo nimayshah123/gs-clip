@@ -1,0 +1,26 @@
+{
+  "Baseline CLIP": {
+    "text": 31.25,
+    "image": 11.0,
+    "group": 8.75,
+    "n": 400
+  },
+  "Original KG ep5": {
+    "text": 14.5,
+    "image": 5.75,
+    "group": 2.5,
+    "n": 400
+  },
+  "CLIC 1K ep5": {
+    "text": 15.5,
+    "image": 6.75,
+    "group": 2.75,
+    "n": 400
+  },
+  "CLIC Full ep2": {
+    "text": 8.75,
+    "image": 6.75,
+    "group": 3.25,
+    "n": 400
+  }
+}

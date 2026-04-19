@@ -1,0 +1,61 @@
+# GS-CLIP default configuration
+# Override any field via CLI: python scripts/train_stage1.py --config configs/default.yaml lr=1e-4
+
+# ── Hardware ──────────────────────────────────────────────────────────────────
+device: cuda          # "cuda" or "cpu"
+seed: 42
+
+# ── CLIP backbone ─────────────────────────────────────────────────────────────
+clip_model: ViT-B-32
+clip_pretrained: openai   # "openai" (trained on WIT-400M) or "laion2b_s34b_b79k"
+
+# ── LoRA ─────────────────────────────────────────────────────────────────────
+lora_rank: 16         # r=16  (paper §4.5)
+lora_alpha: 32.0      # α/r scaling = 2.0
+
+# ── GNN ──────────────────────────────────────────────────────────────────────
+gnn_layers: 3
+gnn_heads: 8
+gnn_hidden_dim: 512
+gnn_dropout: 0.1
+
+# ── Stage I (Visual Genome) ───────────────────────────────────────────────────
+stage1:
+  data_root: data/visual_genome
+  max_samples: 50000
+  batch_size: 64
+  lr: 3e-4
+  weight_decay: 0.01
+  max_steps: 5000
+  warmup_steps: 200
+  grad_clip: 1.0
+  num_workers: 4
+  checkpoint_dir: checkpoints/stage1
+  log_every: 50
+
+# ── Stage II (MS-COCO) ────────────────────────────────────────────────────────
+stage2:
+  data_root: data/coco
+  batch_size: 128
+  lr: 2e-5
+  weight_decay: 0.01
+  epochs: 3
+  warmup_steps: 100
+  grad_clip: 1.0
+  num_workers: 4
+  checkpoint_dir: checkpoints/stage2
+  log_every: 100
+  # Loss weights (Eq. 9 in the paper)
+  lambda_struct: 1.0
+  lambda_hneg: 1.0
+  lambda_iso: 0.5
+  lambda_rel: 0.5
+  lambda_single: 1.0
+
+# ── Evaluation ────────────────────────────────────────────────────────────────
+eval:
+  winoground_dir: data/winoground
+  sugarcrepe_dir: data/sugarcrepe
+  coco_images_dir: null         # set to COCO val2017 path for full SugarCrepe eval
+  results_dir: results/json
+  batch_size: 64

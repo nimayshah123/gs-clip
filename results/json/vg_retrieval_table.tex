@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering
+\caption{Visual Genome relational retrieval (same-predicate pool).}
+\label{tab:vg_retrieval}
+\begin{tabular}{lcccc}
+\toprule
+& \multicolumn{2}{c}{1-of-5 pool} & \multicolumn{2}{c}{1-of-10 pool} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Method & R@1 & R@5 & R@1 & R@5 \\
+\midrule
+  CLIP ViT-B/32~\cite{radford2021clip} & \textemdash & \textemdash & \textemdash & \textemdash \\
+\midrule
+  NegCLIP~\cite{yuksekgonul2023aro} & \textemdash & \textemdash & \textemdash & \textemdash \\
+  TripletCLIP~\cite{patel2024tripletclip} & \textemdash & \textemdash & \textemdash & \textemdash \\
+  CLIC-COCO~\cite{peleg2023clic} & \textemdash & \textemdash & \textemdash & \textemdash \\
+  CLIC-RedCaps~\cite{peleg2023clic} & \textemdash & \textemdash & \textemdash & \textemdash \\
+  Structure-CLIP~\cite{yang2024structureclip} & \textemdash & \textemdash & \textemdash & \textemdash \\
+  SGVL~\cite{herzig2023sgvl} & \textemdash & \textemdash & \textemdash & \textemdash \\
+  CoN-CLIP~\cite{zhang2023conclip} & \textemdash & \textemdash & \textemdash & \textemdash \\
+  SVLC~\cite{doveh2023svlc} & \textemdash & \textemdash & \textemdash & \textemdash \\
+  SDS-CLIP~\cite{cascante2023emnlp} & \textemdash & \textemdash & \textemdash & \textemdash \\
+  {\bf GS-CLIP (ours)} & 83.3 & 100.0 & 72.3 & 98.3 \\
+\midrule
+  $\Delta$ vs.\ CLIP & --- & --- & --- & --- \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,26 @@
+{
+  "Baseline CLIP": {
+    "hard": 73.8,
+    "random": 95.8,
+    "gap": 22.0,
+    "n": 500
+  },
+  "Original KG ep5": {
+    "hard": 54.6,
+    "random": 88.8,
+    "gap": 34.199999999999996,
+    "n": 500
+  },
+  "CLIC 1K ep5": {
+    "hard": 64.6,
+    "random": 95.4,
+    "gap": 30.80000000000001,
+    "n": 500
+  },
+  "CLIC Full ep2": {
+    "hard": 57.8,
+    "random": 90.8,
+    "gap": 33.0,
+    "n": 500
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "baseline": {
+    "text": 31.25,
+    "image": 11.0,
+    "group": 8.75
+  },
+  "token_level": {
+    "text": 9.5,
+    "image": 12.5,
+    "group": 5.0
+  },
+  "improvement": {
+    "text": -21.75,
+    "image": 1.5,
+    "group": -3.75
+  },
+  "time_taken": "5 minutes",
+  "training_required": false
+}

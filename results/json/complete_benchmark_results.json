@@ -1,0 +1,13 @@
+{
+  "visual_genome": {
+    "baseline": 67.0,
+    "trained": 83.0,
+    "diff": 16.0
+  },
+  "winoground": {
+    "baseline": 8.75,
+    "trained": 1.75,
+    "diff": -7.0
+  },
+  "sugarcrepe": null
+}

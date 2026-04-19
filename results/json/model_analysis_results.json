@@ -1,0 +1,26 @@
+{
+  "gate_sigmoid": 0.5024999976158142,
+  "lora_mean_norm": 27.766905943552654,
+  "lora_max_norm": 28.471895217895508,
+  "relation_sensitivity": {
+    "kg_mean_sim": 0.9593381702899932,
+    "bl_mean_sim": 0.977820611000061,
+    "kg_wins": 7
+  },
+  "isotropy": {
+    "kg": 0.264687180519104,
+    "bl": 0.7663416862487793
+  },
+  "attribute_sensitivity": {
+    "kg_mean": 0.9571324189503988,
+    "bl_mean": 0.8478888273239136
+  },
+  "paraphrase_invariance": {
+    "kg": 0.8888089179992675,
+    "bl": 0.9691680908203125
+  },
+  "zero_shot_10way": {
+    "kg": 80.0,
+    "bl": 60.0
+  }
+}

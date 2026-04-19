@@ -1,0 +1,112 @@
+{
+  "CLIP ViT-B/32": {
+    "5": {
+      "R@1": null,
+      "R@5": null
+    },
+    "10": {
+      "R@1": null,
+      "R@5": null
+    }
+  },
+  "NegCLIP": {
+    "5": {
+      "R@1": null,
+      "R@5": null
+    },
+    "10": {
+      "R@1": null,
+      "R@5": null
+    }
+  },
+  "TripletCLIP": {
+    "5": {
+      "R@1": null,
+      "R@5": null
+    },
+    "10": {
+      "R@1": null,
+      "R@5": null
+    }
+  },
+  "CLIC-COCO": {
+    "5": {
+      "R@1": null,
+      "R@5": null
+    },
+    "10": {
+      "R@1": null,
+      "R@5": null
+    }
+  },
+  "CLIC-RedCaps": {
+    "5": {
+      "R@1": null,
+      "R@5": null
+    },
+    "10": {
+      "R@1": null,
+      "R@5": null
+    }
+  },
+  "Structure-CLIP": {
+    "5": {
+      "R@1": null,
+      "R@5": null
+    },
+    "10": {
+      "R@1": null,
+      "R@5": null
+    }
+  },
+  "SGVL": {
+    "5": {
+      "R@1": null,
+      "R@5": null
+    },
+    "10": {
+      "R@1": null,
+      "R@5": null
+    }
+  },
+  "CoN-CLIP": {
+    "5": {
+      "R@1": null,
+      "R@5": null
+    },
+    "10": {
+      "R@1": null,
+      "R@5": null
+    }
+  },
+  "SVLC": {
+    "5": {
+      "R@1": null,
+      "R@5": null
+    },
+    "10": {
+      "R@1": null,
+      "R@5": null
+    }
+  },
+  "SDS-CLIP": {
+    "5": {
+      "R@1": null,
+      "R@5": null
+    },
+    "10": {
+      "R@1": null,
+      "R@5": null
+    }
+  },
+  "GS-CLIP (ours)": {
+    "5": {
+      "R@1": 83.3,
+      "R@5": 100.0
+    },
+    "10": {
+      "R@1": 72.3,
+      "R@5": 98.3
+    }
+  }
+}

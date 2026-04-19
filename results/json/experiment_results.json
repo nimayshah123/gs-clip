@@ -1,0 +1,15 @@
+{
+  "training_losses": [
+    2.57569918800623,
+    1.919505768861526,
+    1.8722157119176326
+  ],
+  "baseline_clip_loss": 3.3193248212337494,
+  "final_gnn_gate": 0.5101456046104431,
+  "winoground_scores": {
+    "text": 17.25,
+    "image": 5.5,
+    "group": 1.7500000000000002
+  },
+  "baseline_winoground": 9.0
+}

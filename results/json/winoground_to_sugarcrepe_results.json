@@ -1,0 +1,53 @@
+{
+  "training": {
+    "dataset": "winoground",
+    "epochs": 10,
+    "final_train_loss": 1.7894637525081634,
+    "final_val_loss": 1.8746010422706605,
+    "final_gate": 0.5822356343269348
+  },
+  "sugarcrepe": {
+    "add_att": {
+      "baseline": 62.0,
+      "winoground_trained": 54.50000000000001,
+      "diff": -7.499999999999993
+    },
+    "add_obj": {
+      "baseline": 79.0,
+      "winoground_trained": 56.00000000000001,
+      "diff": -22.999999999999993
+    },
+    "replace_att": {
+      "baseline": 80.0,
+      "winoground_trained": 55.50000000000001,
+      "diff": -24.499999999999993
+    },
+    "replace_obj": {
+      "baseline": 94.0,
+      "winoground_trained": 51.0,
+      "diff": -43.0
+    },
+    "replace_rel": {
+      "baseline": 67.0,
+      "winoground_trained": 56.49999999999999,
+      "diff": -10.500000000000007
+    },
+    "swap_att": {
+      "baseline": 61.5,
+      "winoground_trained": 56.00000000000001,
+      "diff": -5.499999999999993
+    },
+    "swap_obj": {
+      "baseline": 61.0,
+      "winoground_trained": 48.5,
+      "diff": -12.5
+    }
+  },
+  "summary": {
+    "avg_baseline": 72.07142857142857,
+    "avg_trained": 54.0,
+    "avg_improvement": -18.07142857142857,
+    "wins": 0,
+    "total_splits": 7
+  }
+}

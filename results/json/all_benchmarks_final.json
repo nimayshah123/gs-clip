@@ -1,0 +1,47 @@
+{
+  "vg": {
+    "baseline": 67.0,
+    "trained": 83.0
+  },
+  "winoground": {
+    "baseline": 8.75,
+    "trained": 1.75
+  },
+  "sugarcrepe": {
+    "add_att": {
+      "baseline": 62.0,
+      "trained": 49.0,
+      "diff": -13.0
+    },
+    "add_obj": {
+      "baseline": 79.0,
+      "trained": 59.0,
+      "diff": -20.0
+    },
+    "replace_att": {
+      "baseline": 80.0,
+      "trained": 61.5,
+      "diff": -18.5
+    },
+    "replace_obj": {
+      "baseline": 94.0,
+      "trained": 80.5,
+      "diff": -13.5
+    },
+    "replace_rel": {
+      "baseline": 67.0,
+      "trained": 53.5,
+      "diff": -13.5
+    },
+    "swap_att": {
+      "baseline": 61.5,
+      "trained": 47.0,
+      "diff": -14.5
+    },
+    "swap_obj": {
+      "baseline": 61.0,
+      "trained": 43.0,
+      "diff": -18.0
+    }
+  }
+}
